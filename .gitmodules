@@ -1,0 +1,4 @@
+[submodule "beyglblog/public"]
+	path = beyglblog/public
+	url = https://github.com/yanggl29/yanggl29.github.io.git
+	branch = main
