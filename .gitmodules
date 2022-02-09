@@ -2,3 +2,6 @@
 	path = beyglblog/public
 	url = https://github.com/yanggl29/yanggl29.github.io.git
 	branch = main
+[submodule "beyglblog/themes/LoveIt"]
+	path = beyglblog/themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
