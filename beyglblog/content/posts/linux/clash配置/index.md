@@ -14,7 +14,7 @@ publishDate: 2022-02-13T16:10:13+08:00
 ### 下载与安装
 可以自行到仓库中下载最新版本，也可以直接复制以下命令并执行。
 ```bash
-wget https://github.com/Dreamacro/clash/releases/download/v0.15.0/clash-linux-amd64-v0.19.0.gz
+wget https://github.com/Dreamacro/clash/releases/download/v0.19.0/clash-linux-amd64-v0.19.0.gz
 ```
 依次执行下面命令。
 ```bash
