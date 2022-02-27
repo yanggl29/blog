@@ -1,7 +1,7 @@
 baseURL = "https://yanggl29.github.io/"
 languageCode = "en-us"
 title = "Beygl's Site"
-theme = "LoveIt"
+theme = "DoIt"
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -203,9 +203,9 @@ enableEmoji = true
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
-        appId = "Nifhs0JPySzRjjMpnmvptbeQ-MdYXbMMI"
-        appKey = "dONVPvE9z2W99LrA77cyjMQJ"
+        enable = false
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -215,7 +215,7 @@ enableEmoji = true
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://nifhs0jp.api.lncldglobal.com"
+        serverURLs = ""
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
@@ -227,6 +227,26 @@ enableEmoji = true
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
         emoji = ""
+      # Waline comment config (https://waline.js.org/)
+      # Waline 评论系统设置 (https://waline.js.org/)
+      [params.page.comment.waline]
+        enable = true
+        #js = "https://cdn.jsdelivr.net/npm/@waline/client@latest"
+        js = "https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"
+        meta = ['nick','mail','link']
+        requiredMeta = ['nick','mail']
+        login = ""
+        placeholder = "欢迎评论"
+        serverURL = "https://blog-comment-9kmizwnut-yanggl29.vercel.app/"                 # Waline的服务端地址（必填） 
+        #imageHosting =                                         # 图床api，如果允许评论框上传图片
+        uploadImage = false                                     # 评论上传图片功能
+        avatar = "retro"                                        # Gravatar头像
+        avatarCDN = "https://sdn.geekzu.org/avatar/"            # Gravatar头像CDN地址，不建议使用loli源
+        pageSize = 20                                           # 评论列表分页，每页条数
+        lang = "zh-CN"                                          # 多语言支持
+        visitor = true                                          # 文章访问量统计
+        highlight = true
+
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
